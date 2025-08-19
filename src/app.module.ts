@@ -5,9 +5,6 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { dbConfig } from './db/config';
 import { AuthModule } from './modules/auth/auth.module';
-
-console.log(dbConfig);
-
 @Module({
   imports: [
     ConfigModule.forRoot({

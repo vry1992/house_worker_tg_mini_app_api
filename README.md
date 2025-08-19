@@ -80,3 +80,5 @@ npm run migration:run
 
 Відкат
 npm run migration:revert
+
+ngrok http --url=toad-evolving-lab.ngrok-free.app 3000
